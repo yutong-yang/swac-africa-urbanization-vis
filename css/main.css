@@ -1,0 +1,91 @@
+span, text, button, input, select, textarea, table{
+	color: rgb(255, 255, 255);
+	fill: rgba(255, 255, 255, 0.841);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+select, input, button {
+    height: 20px;
+    outline: none;
+}
+#top {
+	height: 100%;
+	width: 100%;
+}
+#view1 {
+	height: 100%;
+	width: 100%;
+}
+
+#view2 {
+	height: 100%;
+	width: 100%;
+}
+
+#view3 {
+	height: 100%;
+	width: 100%;
+}
+input[type="range"] {
+    vertical-align: middle;
+}
+#tooltip {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    pointer-events: none;
+}
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 150%;
+    height: 2px;
+    background: #666666;
+    border-radius: 1px;
+    outline: none;
+    /* opacity: 0.5; */
+    transition: opacity 0.2s;
+}
+
+input[type="range"]:hover {
+    opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 0%;
+	opacity: 0.9;
+    cursor: pointer;
+}
+
+.time-text {
+    margin-left: 10px;
+    color: #fffefe;
+    font-size: 14px;
+}
+
+#view4 {
+	height: 100%;
+	width: 100%;
+}
+
+#view5 {
+	height: 100%;
+	width: 100%;
+}
+
+#view6 {
+	height: 100%;
+	width: 100%;
+}
+
+#view7 {
+	height: 100%;
+	width: 100%;
+}

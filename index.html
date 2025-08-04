@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Smart Labeling</title>
+
+        <!-- css library -->
+        <link rel="stylesheet" href="css/aui-prototyping.css">
+        <link rel="stylesheet" href="css/jquery.contextMenu.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" type="text/css" href="css/wan-spinner.css">
+        <!-- js library -->
+        <script src="jslib/jquery.min.js"></script>
+        <script src="jslib/jquery.contextMenu.js"></script>
+        <script src="jslib/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="jslib/aui-prototyping.js"></script>
+        <script src="jslib/d3-contour.min.js"></script>
+        <script src="jslib/svg-pan-zoom.js"></script>
+        <script src="jslib/spin.min.js"></script>
+        <script src="jslib/underscore-min.js"></script>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://unpkg.com/topojson-client@3"></script>
+        <script src="https://cdn.jsdelivr.net/npm/d3-tip@4.0.2/dist/d3-tip.min.js"></script>
+        <!-- css -->
+        <link rel="stylesheet" href="css/main_structure.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    </head>
+    <body>
+        <div id="content-div">
+            <div id="top-div" class="outer-div">
+                <!-- <div id="top"><h1 style="text-align: left; margin: 5px; color: aliceblue; font-size: medium;">🌍 Africapolis: Urbanization from 1950 to 2050</h1></div> -->
+                <img src="./images/africapolis.svg" alt="Africapolis Map" style="width: 25%; height: auto; display: block; margin: 0.2%;">
+            </div>
+            <div id="middle-div" class="block-div">
+                <div id="middle-top-div" class="outer-div">
+                    <div id="view3"></div>
+                </div>
+                <div id="middle-bottom-div" class="outer-div">
+                    <div id="view1"></div>
+                </div>
+            </div>
+            <div id="right-div" class="block-div">
+                <div id="right-top-div" class="outer-div">
+                    <div id="view2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- js -->
+        <script src="js/view1.js"></script>
+        <script src="js/view2.js"></script>
+        <script src="js/view3.js"></script>
+        <script src="js/observer.js"></script>
+    </body>
+</html>

@@ -1,0 +1,97 @@
+body {
+	color: #000;
+	background-color: #333333;
+    SCROLLBAR-FACE-COLOR:  #ffcc99;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.outer-div{
+	background-color: #000;
+	border-radius: 7px;
+    border: 2px solid #333333;
+    box-sizing: border-box
+}
+
+.block-div {
+	height: 100%;
+	border-radius: 7px;
+}
+
+#content-div {
+	width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#top-div {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 4%;
+}
+/* 
+#left-bottom-div {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+} */
+
+#middle-div {
+    position: absolute;
+    top: 4%;
+    bottom: 0px;
+    left: 0%;
+    width: 50%;
+    height: 96%;
+}
+#middle-top-div {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 70%;
+}
+#middle-bottom-div {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 30%;
+}
+
+#right-div {
+    position: absolute;
+    top: 4%;
+    bottom: 0px;
+    right: 0px;
+    left: 50%;
+    width: 50%;
+    height: 96%;
+}
+#right-top-div {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+}
+/* #right-middle-div {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    height: 30%;
+}
+#right-bottom-div {
+    position: absolute;
+    top: 60%;
+    bottom: 0px;
+    width: 100%;
+    height: 40%;
+} */

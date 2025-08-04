@@ -44,7 +44,7 @@ function View3(Observer) {
     let geoData;
     let filteredFeatures = [];
     
-    d3.json("./json/Africa.geojson").then(function(data) {
+    d3.json("./json/africa.geojson").then(function(data) {
         geoData = data;
         loadCSVData();
     });
